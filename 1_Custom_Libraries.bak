@@ -464,7 +464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_Custom_Library:OPB703"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -512,18 +512,6 @@
 			(polyline
 				(pts
 					(xy 2.54 12.7) (xy 5.08 12.7) (xy 5.08 13.97) (xy 6.35 12.7) (xy 5.08 11.43) (xy 5.08 12.7)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 5.08) (xy 3.81 5.08) (xy 4.445 6.35) (xy 6.35 6.35) (xy 6.985 5.08) (xy 8.89 5.08)
 				)
 				(stroke
 					(width 0)
@@ -595,7 +583,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.985 5.715) (xy 6.35 5.08) (xy 6.985 5.08) (xy 6.985 5.715)
+					(xy 8.89 5.08) (xy 7.62 5.08) (xy 6.35 6.35) (xy 5.08 6.35) (xy 3.81 5.08) (xy 2.54 5.08)
 				)
 				(stroke
 					(width 0)
@@ -607,6 +595,18 @@
 			)
 		)
 		(symbol "OPB703_1_1"
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 5.715) (xy 6.985 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin input line
 				(at 0 12.7 0)
 				(length 2.54)
